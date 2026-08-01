@@ -1,6 +1,6 @@
 # The Atlas Dossier
 
-Stewart Barteau’s application package for a TLDR AI content-writer role.
+Stewart Barteau’s application package for a Ai Engineer role.
 
 **Live:** [https://OpenSesameAIEngineerPortfolio.sbarteau2022.workers.dev](https://ai-dev-resume-tldr-curator.sbarteau2022.workers.dev)
 
