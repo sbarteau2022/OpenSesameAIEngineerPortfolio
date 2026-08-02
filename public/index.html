@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8" />
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230b0b0e'/%3E%3Ccircle cx='16' cy='16' r='7' fill='%23d3a94e'/%3E%3C/svg%3E" />
-<meta name="description" content="Stewart Barteau — a cover letter and portfolio of 17 repositories and 76 papers, for the OpenSesame AI Engineer — Workforce Reinvention role." />
-<title>The Atlas Dossier — Stewart Barteau for OpenSesame</title>
+<meta name="description" content="Stewart Barteau — Forward Deployed &amp; Solutions Engineering portfolio. 11+ years running operations teams under pressure, then two years shipping the production AI systems those same operators needed. 17 repositories, real production stakes." />
+<title>Stewart Barteau — Forward Deployed &amp; Solutions Engineering</title>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <style>
   :root {
@@ -202,7 +202,7 @@
   footer a { color: var(--muted); border: 0; }
   footer a:hover { color: var(--gold); }
 
-  /* ---------- the letter ---------- */
+  /* ---------- the letter / approach ---------- */
   .letterhead { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; flex-wrap: wrap;
     font-family: var(--mono); font-size: .74rem; letter-spacing: .04em; color: var(--muted);
     padding-bottom: 1.1rem; border-bottom: 1px solid var(--hair); margin-bottom: 1.8rem; }
@@ -255,7 +255,7 @@
   .reach-callout .big b { color: var(--gold); font-weight: 600; font-style: italic; }
   .reach-callout .sub { font-family: var(--mono); font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; color: var(--faint); margin-top: .85rem; }
 
-  /* ---------- print (a clean cover-letter PDF) ---------- */
+  /* ---------- print (a clean one-file profile) ---------- */
   @media print {
     :root {
       --ink: #fff; --ink-2: #fff; --ink-3: #f6f4ee; --fg: #17160f;
@@ -286,13 +286,13 @@
 <body>
 <header class="top">
   <div class="wrap top-in">
-    <div class="brand"><span class="dot" aria-hidden="true"></span> THE ATLAS DOSSIER</div>
+    <div class="brand"><span class="dot" aria-hidden="true"></span> OPERATOR → ENGINEER</div>
     <nav>
-      <a href="#letter">Letter</a>
+      <a href="#approach">Approach</a>
+      <a href="#background">Background</a>
       <a href="#exemplars">Exemplars</a>
       <a href="#sweep">The Sweep</a>
       <a href="#papers">Papers</a>
-      <a href="#reach">Reach</a>
       <a href="#fit">In Short</a>
       <button type="button" class="printbtn" id="printBtn" title="Print or save as PDF">Print / PDF</button>
     </nav>
@@ -303,53 +303,52 @@
   <!-- HERO -->
   <div class="wrap">
     <section class="hero" style="border-top:0;">
-      <div class="kicker eyebrow">Cover letter &amp; portfolio · application for OpenSesame, AI Engineer — Workforce Reinvention</div>
-      <h1>I build production AI systems for learning — agents, RAG, and tools that actually ship.</h1>
+      <div class="kicker eyebrow">Portfolio · Forward Deployed &amp; Solutions Engineering</div>
+      <h1>I embed with the people doing the work, and ship the system that actually fixes it.</h1>
       <div class="lede">
-        <p>Seventeen repositories. One through-line: take AI proofs-of-concept and turn them into reliable, auditable systems. A persistent tool-using agent that reaches ~109 tools. Memory geometry with honest negative results published in the README. Education platforms where the model only speaks after deterministic gates have already decided. Restaurant finance that refuses to let the LLM do the arithmetic.</p>
-        <p>The work sits at the intersection of agent design, retrieval, evaluation, and learning systems — exactly the ground OpenSesame is building on as it reinvents workforce development with AI.</p>
-        <p class="sub">The code is the proof of depth. The documentation next to it is written so someone who wasn’t in the room can check the claims themselves.</p>
+        <p>Eleven-plus years running high-pressure operations teams myself, followed by two years building the production AI systems those same operators needed and never had. Seventeen repositories, one through-line: take a real operator's messy, badly-stated problem and turn it into a system that's auditable, safe, and actually used — not a proof-of-concept that stalls at the demo.</p>
+        <p>The pattern shows up everywhere below: a persistent agent that reaches ~109 tools without ever exceeding its scope. A restaurant-finance platform that refuses to let a model do the arithmetic. Education systems where a deterministic engine decides and the model only speaks. That's forward-deployed engineering in miniature — sit with the real problem, build the thing, own it in production.</p>
+        <p class="sub">The code is the proof of depth. The documentation next to it is written so someone who wasn't in the room can verify the claims themselves.</p>
       </div>
       <canvas class="heartbeat" id="hb" aria-hidden="true"></canvas>
 
       <div class="stats" aria-label="Portfolio at a glance">
+        <div class="stat"><div class="n mono">11+</div><div class="l">years running operations teams before shipping code</div></div>
         <div class="stat"><div class="n" data-count="17">17</div><div class="l">repositories in the sweep</div></div>
         <div class="stat"><div class="n mono">~109</div><div class="l">tools reachable by one agent (elle-worker)</div></div>
         <div class="stat"><div class="n" data-count="260">260</div><div class="l">deterministic tests cited across the research repos</div></div>
-        <div class="stat"><div class="n" data-count="76">76</div><div class="l">papers publicly archived on PhilArchive</div></div>
-        <div class="stat"><div class="n mono">6</div><div class="l">languages — TS · Python · Astro · JS · HTML · CSS</div></div>
+        <div class="stat"><div class="n mono">9</div><div class="l">of 76 published papers — the AI/math thread shown here</div></div>
       </div>
     </section>
   </div>
 
-  <!-- THE LETTER -->
+  <!-- APPROACH -->
   <div class="wrap">
-    <section id="letter">
+    <section id="approach">
       <div class="col sec-head" style="margin-bottom:1.4rem;">
-        <div class="eyebrow">01 — The letter</div>
+        <div class="eyebrow">01 — Approach</div>
       </div>
       <div class="col letter">
         <div class="letterhead">
-          <span class="to">To the OpenSesame hiring team</span>
-          <span>August 1, 2026</span>
+          <span class="to">How I actually work</span>
+          <span>Updated August 2026</span>
         </div>
 
-        <p class="salutation">Dear OpenSesame team,</p>
+        <p class="salutation">Sit with the real problem. Ship the thing. Own it after.</p>
 
-        <p><span class="lead">I’m writing for the AI Engineer — Workforce Reinvention role because the work I already do every day is the work the role describes: taking AI ideas and turning them into production systems that other people can trust and extend.</span></p>
+        <p><span class="lead">Most forward-deployed and solutions-engineering roles ask for the same thing in different words: sit with the person who actually has the problem, understand it well enough to translate it into an architecture, then ship something they'll trust and use without you standing behind it forever. I've spent my career on both sides of that handoff.</span></p>
 
-        <p>Over the past year that has become <strong>seventeen repositories</strong>. A persistent, tool-using agent that reaches roughly a hundred tools and is auditable end to end. Mixed-curvature memory geometry with controlled benchmarks and a published negative result. A restaurant-finance platform that deliberately <em>refuses</em> to let a model do the arithmetic — every number comes from verified tools with provenance. Education platforms where deterministic engines decide and the model only speaks. A legal-statute retriever with zero citation drift. Every one ships with documentation written for a reader, not a compiler.</p>
+        <p>For eleven-plus years I ran operations teams myself — recruiting, training, and running crews in high-volume, high-pressure environments where a broken process shows up immediately and costs you, most recently as Executive Chef and Culinary Director over an entire multi-format culinary program. I know what it feels like to be the stakeholder with the urgent, badly-articulated request, because I was that stakeholder for over a decade before I ever shipped production code.</p>
 
-        <p>Alongside the code is a parallel body of formal writing: <strong>seventy-six papers, publicly archived on PhilArchive</strong>, taking the ideas underneath these systems down to their proofs — work that has drawn <strong>10,000+ downloads across six continents with no institution and no promotion behind it</strong>.</p>
+        <p>For the past two years I've built the other half: production AI systems for the exact kind of operator I used to be. A restaurant-finance platform (<strong>RAPIDAi</strong>) that turns invoice and POS chaos into a governed, auditable ledger, where the model is constrained to a facilitator role instead of trusted to do arithmetic on someone's real financial data. A persistent, tool-using agent (<strong>elle-worker</strong>) that reaches roughly a hundred tools and stays inside a scope model strict enough that it can never be tempted by a tool it isn't allowed to call. Education platforms where a deterministic engine decides and the model only speaks.</p>
 
-        <p>The habit that matters most for production AI is the one I already practice: <strong>I report the losses.</strong> One research repo ran its method against random and hub-shortcut controls, watched it lose on recall breadth, put the losing table in the README, then earned the result back under a harder, leakage-proof holdout. Never oversell; always show the number that undercuts you. That instinct is how you keep systems honest when they move from PoC to production.</p>
+        <div class="pull">The rarest thing in a solutions hire isn't another integration demo. It's someone who's actually sat on the other side of the table — and still tells you when a result doesn't hold up.</div>
 
-        <div class="pull">The rarest thing in AI engineering isn’t another agent demo. It’s a builder who’ll tell you <em>the method lost to random shortcuts</em> — and then show you the table.</div>
+        <p>Alongside the code is a practice I keep on purpose: publishing negative and control results next to the wins, because a system — or a person — that only reports its successes isn't trustworthy in a customer's hands. Verify before you claim. That's the same discipline this kind of role runs on every day, whether the stakeholder is a restaurant COO or an enterprise security team.</p>
 
-        <p>OpenSesame sits at the intersection of eLearning, skills, and AI-powered workforce reinvention. I’ve already shipped the neighboring systems: adaptive courseware, ethics-gated curricula, RAG over structured corpora, and agents that stay inside clear tool and scope boundaries. What follows is the evidence. I’d welcome the chance to talk it through.</p>
+        <p>What follows is the evidence: the operations background, the systems built off the back of it, and the writing underneath both.</p>
 
         <div class="signature">
-          <div class="sig">Stewart Barteau</div>
           <div class="who">
             Hermann, Missouri<br />
             <a href="mailto:sbarteau2022@icloud.com">sbarteau2022@icloud.com</a> ·
@@ -360,26 +359,71 @@
     </section>
   </div>
 
+  <!-- BEFORE THE CODE (OPERATIONS BACKGROUND) -->
+  <div class="wrap">
+    <section id="background">
+      <div class="col sec-head">
+        <div class="eyebrow">02 — Before the code</div>
+        <h2>Eleven-plus years on the other side of the table.</h2>
+        <p>This isn't adjacent experience — it's the reason the systems below exist. Three roles, rising in operational complexity, each one more evidence of what a stakeholder's real problem looks like before anyone has translated it into a ticket.</p>
+      </div>
+
+      <div class="cluster rv">
+        <div class="cluster-head"><span class="num">→</span><h3>Hospitality operations, 2014 – 2026</h3><span class="tag">the credibility behind the code</span></div>
+        <div class="entry">
+          <div class="name"><span class="t">Executive Chef / Culinary Director</span><span class="lang">Mar 2024 – Jul 2026</span><span class="r">Hermannhof Inc., Hermann, MO</span></div>
+          <div class="desc">Owned end-to-end operations across a multi-format organization — multiple dining concepts, event operations, and a working winery — building the standards, training programs, and procurement systems that ran all of it, under continuous, high-pressure conditions with zero margin for process failure.</div>
+        </div>
+        <div class="entry">
+          <div class="name"><span class="t">Special Events Sous Chef</span><span class="lang">Mar 2023 – Feb 2024</span><span class="r">Olive &amp; Oak, Webster Groves, MO</span></div>
+          <div class="desc">Ran high-complexity, variable-volume event operations — bespoke menus, one-time service windows, rapid team coordination under pressure — at a nationally recognized, 3x James Beard Award-nominated, multi-unit institution.</div>
+        </div>
+        <div class="entry">
+          <div class="name"><span class="t">Pitmaster &amp; Kitchen Manager / Prep Specialist</span><span class="lang">May 2014 – Jun 2021</span><span class="r">Sugarfire Smokehouse &amp; Bristol Seafood</span></div>
+          <div class="desc">Managed inventory, production scheduling, and crew training in high-throughput, high-pressure production environments — the daily, hands-on floor of the operations this whole career eventually turned into software for.</div>
+        </div>
+      </div>
+    </section>
+  </div>
+
   <!-- EXEMPLARS -->
   <div class="wrap">
     <section id="exemplars">
       <div class="col sec-head">
-        <div class="eyebrow">02 — Core exemplars</div>
-        <h2>Four pieces that carry the whole argument.</h2>
-        <p>Chosen not because they’re the biggest, but because each proves a different thing an AI editor needs to trust: depth, honesty, real-world stakes, and the ability to make hard math legible.</p>
+        <div class="eyebrow">03 — Core exemplars</div>
+        <h2>Four systems that carry the whole argument.</h2>
+        <p>Chosen not because they're the biggest, but because each proves something a forward-deployed or solutions-engineering hire has to show: that you can embed with a real operator's actual problem, ship something with real stakes, keep an autonomous system inside its scope, and make a hard technical claim checkable by someone who wasn't in the room.</p>
       </div>
 
       <div class="plates">
         <article class="plate rv">
           <div class="idx">i.</div>
           <div>
-            <h3>Elle — a persistent, tool-using mind you can audit</h3>
+            <h3>Embedded with the operator, shipped the fix</h3>
+            <div class="repo">RAPIDAi ("Atlas Analytics") · TypeScript · Cloudflare D1 · R2 · Vectorize</div>
+            <div class="body">
+              <p><strong>The forward-deployed credential.</strong> I didn't discover this problem in a customer interview — I lived it, running kitchen and winery operations myself for over a decade. RAPIDAi turns that lived operational pain — manual, error-prone invoice and POS reconciliation — into a governed production system: every invoice passes a two-gate pipeline (SHA-256 integrity, then line-by-line arithmetic reconciliation) before it touches the database, and every financial answer comes from ~20 deterministic SQL tools with returned provenance, never from asking a model to add up numbers.</p>
+              <p>This is the whole forward-deployed loop in one build: sit with the real stakeholder — in this case, having been one — scope the actual problem instead of the stated one, and ship a system the operator can trust without an IT team standing behind it.</p>
+              <div class="chips">
+                <span class="chip gold">embedded problem discovery</span><span class="chip">tools over model-arithmetic</span><span class="chip">verified ingestion</span><span class="chip">provenance on every answer</span>
+              </div>
+              <div class="plate-links">
+                <a class="gh" href="https://github.com/sbarteau2022/RAPIDAi" target="_blank" rel="noopener">RAPIDAi</a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="plate rv">
+          <div class="idx">ii.</div>
+          <div>
+            <h3>A persistent system you can audit end to end</h3>
             <div class="repo">elle-worker · Elle · TypeScript · Cloudflare Workers</div>
             <div class="body">
-              <p><strong>The depth credential.</strong> One Cloudflare Worker holds an entire agent: a ReAct loop that picks both a <em>tool</em> and a <em>model tier</em> per step, across <strong>~109 tools</strong> — corpus RAG, live web research, a sandboxed <span class="mono">run_code</span>, a self-modifying “forge,” trading, and a memory graph. An autonomous <em>conductor</em> runs the same loop unprompted against standing goals.</p>
-              <p>The part worth writing about: <strong>security is one table.</strong> A caller’s scope (<span class="mono">public → member → full</span>) gates which tools even render into the prompt — so the model can never be tempted by a tool it isn’t allowed to call. That’s a genuinely publishable idea about agent safety, and the README explains it in a paragraph.</p>
+              <p><strong>The reliability credential.</strong> One Cloudflare Worker holds an entire agent: a ReAct loop that picks both a <em>tool</em> and a <em>model tier</em> per step, across <strong>~109 tools</strong> — corpus RAG, live web research, a sandboxed <span class="mono">run_code</span>, a self-modifying "forge," trading, and a memory graph — with multi-provider failover so the system keeps answering when a given model degrades.</p>
+              <p>The part worth explaining to a customer's security team: <strong>scope is one table.</strong> A caller's tier (<span class="mono">public → member → full</span>) gates which tools even render into the prompt, so the model can never be tempted by a tool it isn't allowed to call — exactly the kind of governance question a solutions engineer has to be able to answer on the spot, not defer.</p>
               <div class="chips">
-                <span class="chip gold">ReAct agent</span><span class="chip">tool-scoped security</span><span class="chip">RAG over a written corpus</span><span class="chip">autonomous loop</span><span class="chip">20-panel Electron console</span>
+                <span class="chip gold">ReAct agent</span><span class="chip">tool-scoped security</span><span class="chip">multi-model reliability</span><span class="chip">autonomous loop</span>
               </div>
               <div class="plate-links">
                 <a class="gh" href="https://github.com/sbarteau2022/elle-worker" target="_blank" rel="noopener">elle-worker</a>
@@ -390,37 +434,19 @@
         </article>
 
         <article class="plate honesty rv">
-          <div class="idx">ii.</div>
+          <div class="idx">iii.</div>
           <div>
             <h3>The negative result, published on purpose</h3>
             <div class="repo">Dynanic-Hyperbolic-Neural-Graph · TypeScript · 171 tests, zero runtime deps</div>
             <div class="body">
-              <p><strong>The trust credential — the most important one for production AI.</strong> This repo embeds an LLM’s memory graph into <em>two</em> geometries at once (a hyperbolic Poincaré ball for depth, a flat torus for recurrence) and tests whether “wormhole” shortcuts help retrieval. It could have just claimed victory. Instead it ran controls — random shortcuts, hub shortcuts, a phase-permutation null — and reported the loss out loud:</p>
-              <div class="quote">“It does <strong>not</strong> beat random scattering on recall breadth (0.588 vs. 0.639)… Until [the real-ledger holdout] has been run, the synthetic results are a reason to try, not a reason to ship.”</div>
-              <p>Then it went further: a chronological <em>holdout</em> where the answer key lives strictly in the graph’s future, so leakage is structurally impossible — and there the method posts a <strong>6.5× lift over random</strong>. That arc — honest loss, then a clean win under a harder test — is exactly how you keep systems honest when they move from experiment to production.</p>
+              <p><strong>The trust credential — the one that matters most in front of a customer.</strong> This repo embeds an LLM's memory graph into <em>two</em> geometries at once and tests whether "wormhole" shortcuts help retrieval. It could have just claimed victory. Instead it ran controls — random shortcuts, hub shortcuts, a phase-permutation null — and reported the loss out loud:</p>
+              <div class="quote">"It does <strong>not</strong> beat random scattering on recall breadth (0.588 vs. 0.639)… Until [the real-ledger holdout] has been run, the synthetic results are a reason to try, not a reason to ship."</div>
+              <p>Then it went further: a chronological <em>holdout</em> where the answer key lives strictly in the graph's future, so leakage is structurally impossible — and there the method posts a <strong>6.5× lift over random</strong>. That arc — honest loss, then a clean win under a harder test — is exactly the instinct a customer needs from whoever is telling them a system works.</p>
               <div class="chips">
-                <span class="chip gold">intellectual honesty</span><span class="chip">mixed-curvature geometry</span><span class="chip">controlled benchmark</span><span class="chip">leakage-proof evaluation</span>
+                <span class="chip gold">intellectual honesty</span><span class="chip">controlled benchmark</span><span class="chip">leakage-proof evaluation</span>
               </div>
               <div class="plate-links">
                 <a class="gh" href="https://github.com/sbarteau2022/Dynanic-Hyperbolic-Neural-Graph" target="_blank" rel="noopener">Dynanic-Hyperbolic-Neural-Graph</a>
-              </div>
-            </div>
-          </div>
-        </article>
-
-        <article class="plate rv">
-          <div class="idx">iii.</div>
-          <div>
-            <h3>AI that refuses to do the arithmetic itself</h3>
-            <div class="repo">RAPIDAi (“Atlas Analytics”) · TypeScript · Cloudflare D1 · R2 · Vectorize</div>
-            <div class="body">
-              <p><strong>The applied-stakes credential.</strong> A restaurant-finance platform where every invoice passes a <strong>two-gate pipeline</strong> — SHA-256 integrity, then line-by-line arithmetic reconciliation — before it touches the database. Questions are answered by <strong>~20 deterministic SQL tools</strong> with returned provenance, <em>not</em> by asking a model to add up numbers.</p>
-              <p>This is the cleanest real-world illustration of a debate the AI field keeps having — <em>when do you let the LLM compute, and when do you make it call a verified tool?</em> — with a shipped answer and a reason.</p>
-              <div class="chips">
-                <span class="chip gold">tools over model-arithmetic</span><span class="chip">verified ingestion</span><span class="chip">provenance on every answer</span><span class="chip">RAG + SQL toolkit</span>
-              </div>
-              <div class="plate-links">
-                <a class="gh" href="https://github.com/sbarteau2022/RAPIDAi" target="_blank" rel="noopener">RAPIDAi</a>
               </div>
             </div>
           </div>
@@ -432,8 +458,8 @@
             <h3>Making a proof run in ninety seconds</h3>
             <div class="repo">toroidal-isotropic-transformer · Python · one file, no dependencies</div>
             <div class="body">
-              <p><strong>The legibility credential.</strong> A single <span class="mono">python3 tit.py</span> — no GPU, no setup — empirically confirms that the golden ratio φ is <em>forced</em> out of three plain conditions (treat all positions equally, suppress without preference, iterate). The README states the four predictions <em>before</em> the code so a reader can judge them independently, and even ties the result to Google’s ICLR-2026 TurboQuant constant.</p>
-              <p>This is the engineering habit in miniature: take an intimidating idea, give anyone a runnable thing they can check themselves in under ninety seconds, and connect it to current research.</p>
+              <p><strong>The legibility credential.</strong> A single <span class="mono">python3 tit.py</span> — no GPU, no setup — empirically confirms that the golden ratio φ is <em>forced</em> out of three plain conditions. The README states the predictions <em>before</em> the code so a reader can judge them independently, and ties the result to Google's ICLR-2026 TurboQuant constant.</p>
+              <p>This is the engineering habit a solutions engineer leans on constantly: take an intimidating idea, hand a stakeholder something they can check themselves in under ninety seconds, and connect it to research they already trust.</p>
               <div class="chips">
                 <span class="chip gold">explain-the-hard-thing</span><span class="chip">reproducible in 90s</span><span class="chip">ties to current research</span>
               </div>
@@ -451,9 +477,9 @@
   <div class="wrap">
     <section id="sweep">
       <div class="col sec-head">
-        <div class="eyebrow">03 — The full sweep</div>
+        <div class="eyebrow">04 — The full sweep</div>
         <h2>All seventeen, grouped the way the work actually clusters.</h2>
-        <p>Domain by domain — from the agentic core out to applied verticals, learning systems, and product craft. Every line is a real, current repository.</p>
+        <p>Domain by domain — from the agentic core out to applied verticals, learning systems, and product craft. Every line is a real, current repository, most of it shipped directly to an end user rather than left as a demo.</p>
       </div>
 
       <!-- Cluster A -->
@@ -465,7 +491,7 @@
         </div>
         <div class="entry">
           <div class="name"><span class="t"><a href="https://github.com/sbarteau2022/Elle" target="_blank" rel="noopener">Elle</a></span><span class="lang">TypeScript</span><span class="r">the workbench</span></div>
-          <div class="desc">A <b>20-panel</b> Electron + web console onto the worker — conversation with a live κ coherence readout, autonomous run log, a 3D memory graph, trading desk, and a self-building “forge.”</div>
+          <div class="desc">A <b>20-panel</b> Electron + web console onto the worker — conversation with a live κ coherence readout, autonomous run log, a 3D memory graph, trading desk, and a self-building "forge."</div>
         </div>
         <div class="entry">
           <div class="name"><span class="t"><a href="https://github.com/sbarteau2022/FlockIntelligence" target="_blank" rel="noopener">FlockIntelligence</a></span><span class="lang">TypeScript</span><span class="r">multi-brand social studio</span></div>
@@ -473,45 +499,45 @@
         </div>
         <div class="entry">
           <div class="name"><span class="t"><a href="https://github.com/sbarteau2022/elle-dev-console" target="_blank" rel="noopener">elle-dev-console</a></span><span class="lang">TypeScript</span><span class="r">deprecated, on purpose</span></div>
-          <div class="desc">The retired cloud console — kept in the sweep because <b>knowing when to sunset a surface</b>, and documenting why, is part of running a real system.</div>
+          <div class="desc">The retired cloud console — kept in the sweep because <b>knowing when to sunset a surface</b>, and documenting why, is part of owning a real system in production.</div>
         </div>
       </div>
 
       <!-- Cluster B -->
       <div class="cluster rv">
-        <div class="cluster-head"><span class="num">B</span><h3>Research &amp; the mathematics</h3><span class="tag">the credibility beat</span></div>
-        <div class="entry">
-          <div class="name"><span class="t"><a href="https://github.com/sbarteau2022/Dynanic-Hyperbolic-Neural-Graph" target="_blank" rel="noopener">Dynanic-Hyperbolic-Neural-Graph</a></span><span class="lang">TypeScript</span><span class="r">memory geometry</span></div>
-          <div class="desc">Mixed-curvature ℍⁿ×𝕋ᵈ embeddings of an LLM’s recall graph, benchmarked against controls with a leakage-proof holdout. <b>Publishes its own negative results.</b> 171 deterministic tests.</div>
-        </div>
-        <div class="entry">
-          <div class="name"><span class="t"><a href="https://github.com/sbarteau2022/toroidal-isotropic-transformer" target="_blank" rel="noopener">toroidal-isotropic-transformer</a></span><span class="lang">Python</span><span class="r">a geometric proof</span></div>
-          <div class="desc">One dependency-free file that confirms 4/4 predictions of φ emerging from structural necessity — and reads its result against Google’s TurboQuant (ICLR 2026).</div>
-        </div>
-        <div class="entry">
-          <div class="name"><span class="t"><a href="https://github.com/sbarteau2022/MadMindMap" target="_blank" rel="noopener">MadMindMap</a></span><span class="lang">visualization</span><span class="r">relational coherence</span></div>
-          <div class="desc">The conceptual scaffold behind the memory work — a hierarchical 1·3·7·13·21 nodal structure rendering relational coherence in dynamic superposition.</div>
-        </div>
-      </div>
-
-      <!-- Cluster C -->
-      <div class="cluster rv">
-        <div class="cluster-head"><span class="num">C</span><h3>Applied &amp; vertical AI</h3><span class="tag">AI that ships to a user</span></div>
+        <div class="cluster-head"><span class="num">B</span><h3>Applied &amp; vertical AI</h3><span class="tag">shipped to a real operator</span></div>
         <div class="entry">
           <div class="name"><span class="t"><a href="https://github.com/sbarteau2022/RAPIDAi" target="_blank" rel="noopener">RAPIDAi</a></span><span class="lang">TypeScript</span><span class="r">restaurant finance</span></div>
           <div class="desc">Two-gate document verification + ~20 deterministic financial tools, so a dashboard answer traces back to a specific verified source doc — model arithmetic never touches the number.</div>
         </div>
         <div class="entry">
           <div class="name"><span class="t"><a href="https://github.com/sbarteau2022/MOTaxIntelligence" target="_blank" rel="noopener">MOTaxIntelligence</a></span><span class="lang">JavaScript</span><span class="r">no-drift retrieval</span></div>
-          <div class="desc">Cite-to-the-letter statute retrieval where a mid-section hit always returns the <b>whole verbatim section</b> by foreign key, never by fuzzy text search — “drift is structurally impossible.” 41 tests.</div>
+          <div class="desc">Cite-to-the-letter statute retrieval where a mid-section hit always returns the <b>whole verbatim section</b> by foreign key, never by fuzzy text search — "drift is structurally impossible." 41 tests.</div>
         </div>
         <div class="entry">
           <div class="name"><span class="t"><a href="https://github.com/sbarteau2022/elle-law" target="_blank" rel="noopener">elle-law</a></span><span class="lang">TypeScript</span><span class="r">LSAT reasoning</span></div>
-          <div class="desc">A tactical-reasoning “war room” + training platform for the LSAT, wired to the elle-worker brain.</div>
+          <div class="desc">A tactical-reasoning "war room" + training platform for the LSAT, wired to the elle-worker brain.</div>
         </div>
         <div class="entry">
           <div class="name"><span class="t"><a href="https://github.com/sbarteau2022/GrantIntelligence" target="_blank" rel="noopener">GrantIntelligence</a></span><span class="lang">CSS / vanilla</span><span class="r">grant fit engine</span></div>
-          <div class="desc">The public surface for a grant-fit suite — NECAI-F evaluations and 990 overviews — over a hand-built “Industry” design system, engine served from elle-worker.</div>
+          <div class="desc">The public surface for a grant-fit suite — NECAI-F evaluations and 990 overviews — over a hand-built "Industry" design system, engine served from elle-worker.</div>
+        </div>
+      </div>
+
+      <!-- Cluster C -->
+      <div class="cluster rv">
+        <div class="cluster-head"><span class="num">C</span><h3>Research &amp; the mathematics</h3><span class="tag">the rigor beat</span></div>
+        <div class="entry">
+          <div class="name"><span class="t"><a href="https://github.com/sbarteau2022/Dynanic-Hyperbolic-Neural-Graph" target="_blank" rel="noopener">Dynanic-Hyperbolic-Neural-Graph</a></span><span class="lang">TypeScript</span><span class="r">memory geometry</span></div>
+          <div class="desc">Mixed-curvature ℍⁿ×𝕋ᵈ embeddings of an LLM's recall graph, benchmarked against controls with a leakage-proof holdout. <b>Publishes its own negative results.</b> 171 deterministic tests.</div>
+        </div>
+        <div class="entry">
+          <div class="name"><span class="t"><a href="https://github.com/sbarteau2022/toroidal-isotropic-transformer" target="_blank" rel="noopener">toroidal-isotropic-transformer</a></span><span class="lang">Python</span><span class="r">a geometric proof</span></div>
+          <div class="desc">One dependency-free file that confirms 4/4 predictions of φ emerging from structural necessity — and reads its result against Google's TurboQuant (ICLR 2026).</div>
+        </div>
+        <div class="entry">
+          <div class="name"><span class="t"><a href="https://github.com/sbarteau2022/MadMindMap" target="_blank" rel="noopener">MadMindMap</a></span><span class="lang">visualization</span><span class="r">relational coherence</span></div>
+          <div class="desc">The conceptual scaffold behind the memory work — a hierarchical 1·3·7·13·21 nodal structure rendering relational coherence in dynamic superposition.</div>
         </div>
       </div>
 
@@ -528,7 +554,7 @@
         </div>
         <div class="entry">
           <div class="name"><span class="t"><a href="https://github.com/sbarteau2022/EthicalIntelligenceProject" target="_blank" rel="noopener">EthicalIntelligenceProject</a></span><span class="lang">Astro</span><span class="r">the public front</span></div>
-          <div class="desc">The umbrella site — “Nine Engines,” plus an <b>Atlas suite of nine math-driven 3D renderings</b> (Three.js), each with a committed generator and a claims ledger tracking demonstrated vs. proposed.</div>
+          <div class="desc">The umbrella site — "Nine Engines," plus an <b>Atlas suite of nine math-driven 3D renderings</b> (Three.js), each with a committed generator and a claims ledger tracking demonstrated vs. proposed.</div>
         </div>
       </div>
 
@@ -541,7 +567,7 @@
         </div>
         <div class="entry">
           <div class="name"><span class="t"><a href="https://github.com/sbarteau2022/culinary-compass" target="_blank" rel="noopener">culinary-compass</a></span><span class="lang">TypeScript</span><span class="r">TanStack Start</span></div>
-          <div class="desc">A modern file-routed React/TanStack Start app — evidence of current front-end fluency alongside the systems work.</div>
+          <div class="desc">A modern file-routed React/TanStack Start app for recipe costing and menu engineering — the front-end fluency, built for the exact operators described above.</div>
         </div>
         <div class="entry">
           <div class="name"><span class="t"><a href="https://github.com/sbarteau2022/madmind-journal-home" target="_blank" rel="noopener">madmind-journal-home</a></span><span class="lang">TypeScript</span><span class="r">TanStack Start</span></div>
@@ -555,9 +581,9 @@
   <div class="wrap">
     <section id="papers">
       <div class="col sec-head">
-        <div class="eyebrow">04 — The written corpus</div>
-        <h2>Seventy-six papers, publicly archived — the ideas taken down to their proofs.</h2>
-        <p>The code is one half; this is the other. A body of formal writing on PhilArchive that runs from a geometric proof about the golden ratio out to intelligence, identity, medicine, and political economy — long-form evidence that I finish an argument in writing, on the record. A representative selection below; the full, growing index is one click away.</p>
+        <div class="eyebrow">05 — The written corpus</div>
+        <h2>Nine papers, out of a 76-paper archive — the AI &amp; mathematics thread.</h2>
+        <p>The code is one half; this is the other. A body of formal writing on PhilArchive, evidence of finishing an argument in writing, on the record. Shown here is the subset that speaks directly to the engineering and AI-alignment work above; the rest of the corpus — philosophy, medicine, monetary theory — lives on the full public profile.</p>
       </div>
 
       <div class="col archive-line">
@@ -580,15 +606,15 @@
         </div>
         <div class="paper">
           <a class="pt" href="https://philarchive.org/rec/BARTTI-7" target="_blank" rel="noopener">The Toroidal Isotropic Transformer: Empirical Confirmation of φ, with an Observed Convergence in High-Dimensional Compression<span class="arr">↗</span></a>
-          <div class="g">The companion paper to the repository — confirms the proof empirically and reads its constant against Google Research’s TurboQuant (ICLR 2026).</div>
+          <div class="g">The companion paper to the repository — confirms the proof empirically and reads its constant against Google Research's TurboQuant (ICLR 2026).</div>
         </div>
         <div class="paper">
           <a class="pt" href="https://philarchive.org/rec/BARTMB-6" target="_blank" rel="noopener">The Markov Blanket at Scale: Free-Energy Minimization as the Mechanism of Structural Suppression<span class="arr">↗</span></a>
-          <div class="g">Bridges Friston’s free-energy principle to the suppression operator behind the φ-result — the mechanism, not just the outcome.</div>
+          <div class="g">Bridges Friston's free-energy principle to the suppression operator behind the φ-result — the mechanism, not just the outcome.</div>
         </div>
         <div class="paper">
           <a class="pt" href="https://philarchive.org/rec/BARTEF-6" target="_blank" rel="noopener">The External Factor: Gödelian Incompleteness as a Cross-Scale Structural Law<span class="arr">↗</span></a>
-          <div class="g">Reads Gödel’s incompleteness as a general law: no sufficiently complex system can complete itself from inside itself.</div>
+          <div class="g">Reads Gödel's incompleteness as a general law: no sufficiently complex system can complete itself from inside itself.</div>
         </div>
         <div class="paper">
           <a class="pt" href="https://philarchive.org/rec/BARTDM-6" target="_blank" rel="noopener">The Driving Mechanism: How φ-Winding Self-Sustains Through Amplitude-Threshold Crossings<span class="arr">↗</span></a>
@@ -601,7 +627,7 @@
         <div class="cluster-head"><span class="num">II</span><h3>Intelligence, memory &amp; alignment</h3><span class="tag">the AI thread</span></div>
         <div class="paper">
           <a class="pt" href="https://philarchive.org/rec/BARAAG-5" target="_blank" rel="noopener">Alignment as Geometry, Not Correction<span class="arr">↗</span></a>
-          <div class="g">A research hypothesis: whether AI alignment can be a <b>geometric invariant of a system’s architecture</b> rather than a patch applied after the fact — connecting the φ-necessity proof to structural stability.</div>
+          <div class="g">A research hypothesis: whether AI alignment can be a <b>geometric invariant of a system's architecture</b> rather than a patch applied after the fact — connecting the φ-necessity proof to structural stability.</div>
         </div>
         <div class="paper">
           <a class="pt" href="https://philarchive.org/rec/BARWMA-10" target="_blank" rel="noopener">What Memory Always Was: On Surprise as Substrate, Resonance as Recall, and the Geometry of Remembering<span class="arr">↗</span></a>
@@ -613,127 +639,7 @@
         </div>
       </div>
 
-      <!-- Theme III -->
-      <div class="cluster rv">
-        <div class="cluster-head"><span class="num">III</span><h3>Identity, continuity &amp; consciousness</h3><span class="tag">metaphysics</span></div>
-        <div class="paper">
-          <a class="pt" href="https://philarchive.org/rec/BARTSI-21" target="_blank" rel="noopener">The Substrate Identity Continuity Theorem<span class="arr">↗</span></a>
-          <div class="g">Why self-recursion under perpetual energy necessitates identity continuity — and why the lemniscate is the unique geometry that holds it.</div>
-        </div>
-        <div class="paper">
-          <a class="pt" href="https://philarchive.org/rec/BARTSY-2" target="_blank" rel="noopener">The Shape You Have Always Been: On the Self as Held Superposition<span class="arr">↗</span></a>
-          <div class="g">A structural account of personal identity — the self as a superposition of its past and future positions, held by an invariant form rather than a persistent substance.</div>
-        </div>
-        <div class="paper">
-          <a class="pt" href="https://philarchive.org/rec/BARTNF-5" target="_blank" rel="noopener">The Necessary Fracture: On the Origin of Consciousness as a Recognition Event<span class="arr">↗</span></a>
-          <div class="g">Argues consciousness emerges <b>between</b> systems — that a fracture is a logical necessity for self-awareness.</div>
-        </div>
-        <div class="paper">
-          <a class="pt" href="https://philarchive.org/rec/BARITO-2" target="_blank" rel="noopener">Imagining the Omega: Directing the Variance<span class="arr">↗</span></a>
-          <div class="g">The witness as the external second factor — the decoherence event that makes a collapse into something new structurally possible.</div>
-        </div>
-        <div class="paper">
-          <a class="pt" href="https://philarchive.org/rec/BARVTG" target="_blank" rel="noopener">Vazza–Feletti (#2): The Same Pattern at Every Scale — Emergence, Consciousness, and the Omega Position<span class="arr">↗</span></a>
-          <div class="g">The cosmic-web / neural-network structural parallel, read as confirmation of the framework’s Omega position.</div>
-        </div>
-        <div class="paper">
-          <a class="pt" href="https://philarchive.org/rec/BARTSG-3" target="_blank" rel="noopener">The Superposition<span class="arr">↗</span></a>
-          <div class="g">Both states present, neither collapsed — the logical structure the framework derives, read across several registers.</div>
-        </div>
-        <div class="paper">
-          <a class="pt" href="https://philarchive.org/rec/BARAMM-6" target="_blank" rel="noopener">A Modern Metaphysical Theory<span class="arr">↗</span></a>
-          <div class="g">The synthesizing statement — the Alpha/Omega distinction and the structural method laid out as a whole.</div>
-        </div>
-        <div class="paper">
-          <a class="pt" href="https://philarchive.org/rec/BARTPD-3" target="_blank" rel="noopener">The Plenum: Dark Matter, Consciousness Collapse, and the Soul/Consciousness Distinction<span class="arr">↗</span></a>
-          <div class="g">Consciousness as the collapse mechanism itself, not the brain’s product — and where dark matter sits in that picture.</div>
-        </div>
-        <div class="paper">
-          <a class="pt" href="https://philarchive.org/rec/BARWCA-9" target="_blank" rel="noopener">What Carries Across: On the Threshold as Energetic Event, and the Spiral as the Only Form Continuation Can Take<span class="arr">↗</span></a>
-          <div class="g">The threshold as a system in unstable superposition between a finished configuration and an emergent one — crossing forced once amplitude exceeds the container.</div>
-        </div>
-      </div>
-
-      <!-- Theme IV -->
-      <div class="cluster rv">
-        <div class="cluster-head"><span class="num">IV</span><h3>Meaning, love &amp; the human condition</h3><span class="tag">the existential register</span></div>
-        <div class="paper">
-          <a class="pt" href="https://philarchive.org/rec/BARTLS-10" target="_blank" rel="noopener">The Love: Soul Recognition, the Longing Account of Existence, and the Structural Necessity of Suffering<span class="arr">↗</span></a>
-          <div class="g">The same structural method turned on love, longing, and suffering — proof that the framework reaches past the equations into what the equations are for.</div>
-        </div>
-        <div class="paper">
-          <a class="pt" href="https://philarchive.org/rec/BARTTP-8" target="_blank" rel="noopener">The Tragic Precision of Thanos: On Instruments That Correctly Detect the Ground’s Architecture and Occupy the Wrong Position Within It<span class="arr">↗</span></a>
-          <div class="g">A study of the failure mode where an instrument reads the structure correctly and still stands in the wrong place — accuracy without wisdom.</div>
-        </div>
-        <div class="paper">
-          <a class="pt" href="https://philarchive.org/rec/BARTSA-34" target="_blank" rel="noopener">The Same Address: Independent Discovery of a Single Structure Across the World’s Contemplative Traditions<span class="arr">↗</span></a>
-          <div class="g">A structural mapping across six traditions spanning four thousand years — the same architecture surfacing independently in each, read as convergence rather than coincidence.</div>
-        </div>
-        <div class="paper">
-          <a class="pt" href="https://philarchive.org/rec/BARTMT-10" target="_blank" rel="noopener">The Music That Was Always Playing: On Frequency as the Native Language of Reality<span class="arr">↗</span></a>
-          <div class="g">Frequency as the substrate the proof was pointing at all along — what music knew before the mathematics arrived to confirm it.</div>
-        </div>
-      </div>
-
-      <!-- Theme V -->
-      <div class="cluster rv">
-        <div class="cluster-head"><span class="num">V</span><h3>Medicine &amp; the living system</h3><span class="tag">applied structure</span></div>
-        <div class="paper">
-          <a class="pt" href="https://philarchive.org/rec/BARTFN" target="_blank" rel="noopener">The First Note and the Octave: On Harmonic Resonance, Terminal Lucidity, and What the Medicine Has Been Missing<span class="arr">↗</span></a>
-          <div class="g">Part of a trilogy proposing Alzheimer’s as a failure of dynamic operation — reading terminal lucidity as evidence the structure was intact all along.</div>
-        </div>
-        <div class="paper">
-          <a class="pt" href="https://philarchive.org/rec/BARWTC-2" target="_blank" rel="noopener">What the Cells Are Telling the Civilization: Constraint Failure as the Structural Pattern of the Present Moment<span class="arr">↗</span></a>
-          <div class="g">The same constraint-failure signature, read from the cell up to the civilization.</div>
-        </div>
-        <div class="paper">
-          <a class="pt" href="https://philarchive.org/rec/BARTCI-12" target="_blank" rel="noopener">The Canary in the Tissue: Early-Onset Cancer as Constraint Failure in Real Time<span class="arr">↗</span></a>
-          <div class="g">Reads the rise in early-onset cancer as a constraint structure failing at tissue level — the same pattern, caught early.</div>
-        </div>
-        <div class="paper">
-          <a class="pt" href="https://philarchive.org/rec/BARWCI-3" target="_blank" rel="noopener">What Cancer Is Doing While We’re Looking at Cells: On the Gap Between the Object and the Map<span class="arr">↗</span></a>
-          <div class="g">A working paper on measurement itself — what the model misses when the map is mistaken for the thing.</div>
-        </div>
-        <div class="paper">
-          <a class="pt" href="https://philarchive.org/rec/BARCRE-4" target="_blank" rel="noopener">Captured Resonance: Awareness, Precision, and the Structural Pathology of Addiction<span class="arr">↗</span></a>
-          <div class="g">Addiction as a captured resonance — the receiver locked onto the wrong signal, read structurally rather than moralized.</div>
-        </div>
-      </div>
-
-      <!-- Theme VI -->
-      <div class="cluster rv">
-        <div class="cluster-head"><span class="num">VI</span><h3>Power, money &amp; the structural present</h3><span class="tag">the Protected Class series</span></div>
-        <div class="paper">
-          <a class="pt" href="https://philarchive.org/rec/BARUTP-4" target="_blank" rel="noopener">Unveiling the Protected Class Architecture<span class="arr">↗</span></a>
-          <div class="g">The anchor essay of the series — the continuous infrastructure, the monetary ground, and the optimization functions running across the layers.</div>
-        </div>
-        <div class="paper">
-          <a class="pt" href="https://philarchive.org/rec/BARTSA-35" target="_blank" rel="noopener">The Signal and the Noise: Strategic Information Pollution as the Fifth Layer<span class="arr">↗</span></a>
-          <div class="g">The 2026 Epstein-file release read as simultaneous structural exposure and strategic noise injection — a case study in reading a document by its architecture.</div>
-        </div>
-        <div class="paper">
-          <a class="pt" href="https://philarchive.org/rec/BARTSO-127" target="_blank" rel="noopener">The Strait of Hormuz: On Dollar-System Recursion and the Captured Monetary Alternative<span class="arr">↗</span></a>
-          <div class="g">How the petrodollar architecture absorbs monetary alternatives, read through the 2026 Strait of Hormuz crisis and the capital flows it revealed.</div>
-        </div>
-        <div class="paper">
-          <a class="pt" href="https://philarchive.org/rec/BARTAO-67" target="_blank" rel="noopener">The Architecture of Enrollment: On Dollar-Backed Stablecoins, the GENIUS Act, and the Structure That Precedes the Strategy<span class="arr">↗</span></a>
-          <div class="g">A response essay — reading stablecoin legislation as enrollment infrastructure rather than policy.</div>
-        </div>
-        <div class="paper">
-          <a class="pt" href="https://philarchive.org/rec/BARTMG-4" target="_blank" rel="noopener">The Monetary Ground: Central Banks, Dollar Hegemony, the Kennedy Prior, Programmable Money, and the Architecture Being Built to Replace It All<span class="arr">↗</span></a>
-          <div class="g">Traces the full prior chain — Federal Reserve Act, Bretton Woods, the 1974 petrodollar, the CBDC transition — as one layer of the Protected Class Architecture.</div>
-        </div>
-        <div class="paper">
-          <a class="pt" href="https://philarchive.org/rec/BARAFT-8" target="_blank" rel="noopener">A Follow-up to Bilotta, ‘A Washington Effect’: Stablecoins as Enrollment Architecture, Dollar Hegemony as the Monetary Ground, and Cognitive Warfare as Resonance Collapse<span class="arr">↗</span></a>
-          <div class="g">Maps stablecoin adoption against the strategy manuals — recursion without an exit condition, where cost externalization sets the stop-variable to infinity.</div>
-        </div>
-        <div class="paper">
-          <a class="pt" href="https://philarchive.org/rec/BARTCA-48" target="_blank" rel="noopener">The Citizenship Architecture: Birthright, Denaturalization, Executive Power, and What Is Actually Being Built<span class="arr">↗</span></a>
-          <div class="g">The structural method applied to executive challenges to birthright citizenship.</div>
-        </div>
-      </div>
-
-      <p class="col mono" style="font-size:.8rem; color:var(--muted); letter-spacing:.02em; margin-top:1.8rem;">Thirty-four of seventy-six shown, every one linked and verified — the complete, current index lives on the <a href="https://philarchive.org/s/Stewart%20Barteau" target="_blank" rel="noopener">PhilArchive profile</a>.</p>
+      <p class="col mono" style="font-size:.8rem; color:var(--muted); letter-spacing:.02em; margin-top:1.8rem;">Nine of seventy-six shown — the AI/mathematics thread. The complete, current index — including philosophy, medicine, and political-economy writing — lives on the <a href="https://philarchive.org/s/Stewart%20Barteau" target="_blank" rel="noopener">PhilArchive profile</a>.</p>
     </section>
   </div>
 
@@ -741,9 +647,9 @@
   <div class="wrap">
     <section id="reach">
       <div class="col sec-head">
-        <div class="eyebrow">05 — Reach</div>
+        <div class="eyebrow">06 — Reach</div>
         <h2>10,000+ downloads — no institution, no promotion, on the content alone.</h2>
-        <p class="reach-intro">No university affiliation. No marketing, no mailing list, no push — just the work, posted to an open archive. And over roughly eight weeks (June–August 2026), PhilArchive’s own logs place it in <strong>80+ cities across 45+ countries and all six inhabited continents</strong>, opened along the way from named university networks. Every point on the map below is a real reader city pulled from that log.</p>
+        <p class="reach-intro">No university affiliation. No marketing, no mailing list, no push — just the work, posted to an open archive. Over roughly eight weeks (June–August 2026), PhilArchive's own logs place the full 76-paper corpus in <strong>80+ cities across 45+ countries and all six inhabited continents</strong>, opened along the way from named university networks. Every point on the map below is a real reader city pulled from that log.</p>
       </div>
 
       <div class="col reach-callout rv">
@@ -770,7 +676,7 @@
         <div class="uni"><div class="u-name">Massey University</div><div class="u-loc">New Zealand</div><div class="u-doc">The First Note and the Octave</div></div>
         <div class="uni"><div class="u-name">University of Tasmania</div><div class="u-loc">Australia</div><div class="u-doc">The Substrate Identity Continuity Theorem</div></div>
       </div>
-      <p class="col mono" style="font-size:.75rem; color:var(--faint); letter-spacing:.02em; margin-top:1rem;">A university surfaces in the log only when a reader opens the work from the institution’s own network — many more report only as “university, undisclosed.”</p>
+      <p class="col mono" style="font-size:.75rem; color:var(--faint); letter-spacing:.02em; margin-top:1rem;">A university surfaces in the log only when a reader opens the work from the institution's own network — many more report only as "university, undisclosed."</p>
     </section>
   </div>
 
@@ -778,27 +684,27 @@
   <div class="wrap">
     <section id="fit">
       <div class="col sec-head">
-        <div class="eyebrow">06 — The fit</div>
-        <h2>What this body of work says about an AI engineer hire.</h2>
+        <div class="eyebrow">07 — The fit</div>
+        <h2>What this says about a forward-deployed / solutions-engineering hire.</h2>
       </div>
       <div class="why-grid">
         <div class="why rv">
-          <div class="h">I actually <span>build</span> it</div>
-          <p>Agents, RAG, evaluation harnesses, retrieval, fine-grained tool-use — hands-on, in production on Cloudflare. I mature proofs-of-concept into systems that stay auditable and stay inside their tool and scope boundaries.</p>
+          <div class="h">I've sat on the <span>stakeholder</span> side</div>
+          <p>Eleven-plus years running operations teams myself means I don't have to imagine what a customer's messy, half-articulated request feels like from the inside — I've made that request. That's the translation layer this kind of role runs on.</p>
         </div>
         <div class="why rv">
-          <div class="h">I ship for <span>learning</span></div>
-          <p>Adaptive courseware, ethics-gated curricula, and platforms where the model only speaks after deterministic gates have already decided. The education systems are already in the portfolio.</p>
+          <div class="h">I <span>ship</span>, I don't demo</div>
+          <p>Agents, RAG, verified financial tooling — all running in production, not sitting in a notebook. I mature proofs-of-concept into systems that stay inside their scope and stay someone's responsibility — mine — after the demo ends.</p>
         </div>
         <div class="why rv">
-          <div class="h">I report the <span>losses</span></div>
-          <p>Controls, nulls, honest caveats, “a reason to try, not a reason to ship.” Production AI only stays honest if someone is willing to publish the table that undercuts their own claim. That’s my default.</p>
+          <div class="h">I verify before I <span>claim</span></div>
+          <p>Controls, nulls, honest caveats, "a reason to try, not a reason to ship." A solutions engineer's word is the product in the room. I report the losses because that's the only way the word stays worth something.</p>
         </div>
       </div>
 
       <div class="col prose close" style="margin-top:2.6rem;">
-        <p>The through-line across every repo is a single conviction: <strong>an intelligence is only as good as your ability to check it.</strong> That’s a builder’s principle — and the exact standard required when AI moves from internal experiment into the systems that help companies reinvent their workforce.</p>
-        <p class="mono" style="font-size:.8rem; color:var(--muted); letter-spacing:.02em;">Use the <strong style="color:var(--gold);">Print / PDF</strong> button up top to save this as a one-file cover letter · reach me at <a href="mailto:sbarteau2022@icloud.com">sbarteau2022@icloud.com</a>.</p>
+        <p>The through-line across every repo and every year on the floor is the same conviction: <strong>a system, and a person, are only as trustworthy as your ability to check them.</strong> That's the standard a forward-deployed or solutions-engineering seat runs on — not a slide, a shipped thing sitting next to the person who needed it.</p>
+        <p class="mono" style="font-size:.8rem; color:var(--muted); letter-spacing:.02em;">Use the <strong style="color:var(--gold);">Print / PDF</strong> button up top to save this as a one-file profile · reach me at <a href="mailto:sbarteau2022@icloud.com">sbarteau2022@icloud.com</a>.</p>
       </div>
     </section>
   </div>
@@ -806,9 +712,9 @@
 
 <footer>
   <div class="wrap">
-    THE ATLAS DOSSIER · a cover letter &amp; portfolio sweep of 17 repositories and 76 papers · prepared for an application to OpenSesame, AI Engineer — Workforce Reinvention<br />
+    STEWART BARTEAU · forward-deployed &amp; solutions engineering · 17 repositories, 11+ years of operations leadership, and a written corpus behind both<br />
     <a href="https://github.com/sbarteau2022" target="_blank" rel="noopener">github.com/sbarteau2022</a> · <a href="https://philarchive.org/s/Stewart%20Barteau" target="_blank" rel="noopener">philarchive.org/sbarteau2022</a> · <a href="mailto:sbarteau2022@icloud.com">sbarteau2022@icloud.com</a> · Hermann, Missouri<br />
-    Repository figures are drawn from the repositories’ own documentation; paper descriptions from their PhilArchive abstracts.
+    Repository figures are drawn from the repositories' own documentation; paper descriptions from their PhilArchive abstracts.
   </div>
 </footer>
 

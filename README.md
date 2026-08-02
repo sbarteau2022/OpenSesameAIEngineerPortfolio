@@ -1,10 +1,10 @@
-# The Atlas Dossier
+# Operator → Engineer
 
-Stewart Barteau’s application package for a Ai Engineer role.
+Stewart Barteau's Forward Deployed / Solutions Engineering portfolio.
 
-**Live:** [https://OpenSesameAIEngineerPortfolio.sbarteau2022.workers.dev](https://ai-dev-resume-tldr-curator.sbarteau2022.workers.dev)
+**Live:** [https://OpenSesameAIEngineerPortfolio.sbarteau2022.workers.dev](https://OpenSesameAIEngineerPortfolio.sbarteau2022.workers.dev)
 
-A single self-contained page (cover letter + 17 repositories + 76-paper catalog). No build step, no framework.
+A single self-contained page: 11+ years of operations leadership, 17 repositories, and the AI/math thread of a 76-paper written corpus. No build step, no framework.
 
 ## Deploy
 
