@@ -1,5 +1,5 @@
 {
-  "name": "ai-dev-resume-tldr-curator",
+  "name": "opensesameaiengineerportfolio",
   "private": true,
   "scripts": {
     "dev": "wrangler dev",
