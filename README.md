@@ -1,4 +1,4 @@
-# Operator → Engineer
+ # Operator → Engineer
 
 Stewart Barteau's Forward Deployed / Solutions Engineering portfolio.
 
