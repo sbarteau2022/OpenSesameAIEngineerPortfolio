@@ -8,7 +8,7 @@ A single self-contained page: 11+ years of operations leadership, 17 repositorie
 
 ## Deploy
 
-The repo is connected to a Cloudflare Worker. Every push to the production branch runs the Workers Builds workflow and publishes automatically.
+Every push to `main` runs the Deploy Worker workflow (`.github/workflows/deploy.yml`), which validates the page and publishes it to the `opensesameaiengineerportfolio` Cloudflare Worker with `wrangler deploy`. It needs two repository secrets — `CLOUDFLARE_API_TOKEN` (with the "Workers Scripts — Edit" permission) and `CLOUDFLARE_ACCOUNT_ID`; until they're set, the workflow passes with a warning instead of deploying.
 
 Manual deploy from your machine:
 
